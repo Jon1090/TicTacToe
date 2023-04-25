@@ -1,0 +1,33 @@
+#board {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 90%;
+    width: 90%;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border: 1px solid black;
+    min-width: 50px;
+    min-height: 50px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#turn {
+    position: absolute;
+    align-self: flex-start;
+}
+#start {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+}
